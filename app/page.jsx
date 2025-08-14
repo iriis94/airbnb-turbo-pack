@@ -4,7 +4,7 @@ const WHATSAPP_URL = process.env.NEXT_PUBLIC_WHATSAPP_URL || "https://wa.me/34XX
 export default function Page() {
   const features = [
     {
-      title: "AMOR TE AMO",
+      title: "Copy que convierte",
       desc: "3 títulos + 2 descripciones optimizadas y 15–25 FAQs personalizadas.",
     },
     {

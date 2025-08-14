@@ -1,4 +1,5 @@
 import './globals.css';
+
 export const metadata = {
   title: "Airbnb Turbo Pack",
   description: "Convierte tu anuncio en una máquina de 5★ en 72h",

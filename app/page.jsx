@@ -62,7 +62,7 @@ export default function Page() {
                 Optimizo tu listing, creo tu guía del huésped y preparo cartelería editable. Menos dudas, mejores reseñas y más conversión. Sin dramas.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <a href={TALLY_URL} className="inline-flex items-center justify-center rounded-xl bg-neutral-900 px-5 py-3 text-white font-semibold shadow hover:bg-neutral-800 active:scale-[.99]">
+                <a href="/mejorar" className="inline-flex items-center justify-center rounded-xl bg-neutral-900 px-5 py-3 text-white font-semibold shadow hover:bg-neutral-800 active:scale-[.99]">
                   Mejorar mi anuncio
                 </a>
                 <a href={WHATSAPP_URL} className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 font-semibold shadow ring-1 ring-neutral-200 hover:bg-neutral-50">
@@ -165,7 +165,7 @@ export default function Page() {
               <li>✓ Plantillas de mensajes</li>
               <li>✓ 1 iteración ligera</li>
             </ul>
-            <a href={TALLY_URL} className="mt-6 inline-flex items-center justify-center rounded-xl bg-neutral-900 px-4 py-3 text-white font-semibold shadow hover:bg-neutral-800">Elegir Starter</a>
+            <a href="/mejorar" className="mt-6 inline-flex items-center justify-center rounded-xl bg-neutral-900 px-4 py-3 text-white font-semibold shadow hover:bg-neutral-800">Elegir Starter</a>
           </div>
 
           {/* Pro */}
@@ -178,7 +178,7 @@ export default function Page() {
               <li>✓ Respuestas tipo para imprevistos</li>
               <li>✓ Revisión completa a 30 días</li>
             </ul>
-            <a href={TALLY_URL} className="mt-6 inline-flex items-center justify-center rounded-xl bg-white px-4 py-3 text-neutral-900 font-semibold shadow hover:bg-neutral-100">Elegir Pro</a>
+            <a href="/mejorar" className="mt-6 inline-flex items-center justify-center rounded-xl bg-white px-4 py-3 text-neutral-900 font-semibold shadow hover:bg-neutral-100">Elegir Pro</a>
           </div>
 
           {/* Concierge */}
@@ -224,7 +224,7 @@ export default function Page() {
           <h2 className="text-2xl sm:text-3xl font-extrabold">¿List@ para subir a 5★?</h2>
           <p className="mt-2 text-white/90">Lo dejamos listo en 72h si tienes las fotos y datos a mano. Clic y arrancamos.</p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a href={TALLY_URL} className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-neutral-900 font-semibold shadow hover:bg-neutral-100">Mejorar mi anuncio</a>
+            <a href="/mejorar" className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-neutral-900 font-semibold shadow hover:bg-neutral-100">Mejorar mi anuncio</a>
             <a href={WHATSAPP_URL} className="inline-flex items-center justify-center rounded-xl bg-white/10 px-5 py-3 text-white font-semibold ring-1 ring-white/30 hover:bg-white/5">Hablar por WhatsApp</a>
           </div>
         </div>
